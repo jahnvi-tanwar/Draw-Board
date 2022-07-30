@@ -1,0 +1,17 @@
+.pixel-box{
+    height: 10px;
+    width: 10px;
+    border: solid 1px black;
+}
+
+
+#grid{
+    position: absolute;
+    top:0;
+    left:0;
+    display: grid;
+    grid-template-columns: repeat(120,10px);
+    grid-template-rows: repeat(120,10px);
+    height: 100%;
+    width: 100%;
+}
